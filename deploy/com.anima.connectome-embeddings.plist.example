@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>EMBED_TOKEN</key>
+		<string>REPLACE_LOCALLY_DO_NOT_COMMIT</string>
+		<key>HF_HOME</key>
+		<string>/ABSOLUTE/PRIVATE/CACHE</string>
+		<key>HF_HUB_OFFLINE</key>
+		<string>1</string>
+	</dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.anima.connectome-embeddings</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/ABSOLUTE/PATH/TO/connectome-embeddings/.venv/bin/python</string>
+		<string>/ABSOLUTE/PATH/TO/connectome-embeddings/server.py</string>
+		<string>--host</string>
+		<string>127.0.0.1</string>
+		<string>--port</string>
+		<string>8804</string>
+		<string>--modality</string>
+		<string>text</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/ABSOLUTE/PRIVATE/LOGS/embeddings.log</string>
+	<key>StandardOutPath</key>
+	<string>/ABSOLUTE/PRIVATE/LOGS/embeddings.log</string>
+	<key>WorkingDirectory</key>
+	<string>/ABSOLUTE/PATH/TO/connectome-embeddings</string>
+</dict>
+</plist>

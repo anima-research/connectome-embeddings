@@ -1,0 +1,10 @@
+# Observed installed distributions on the source Mac, 2026-10-19.
+# Not a complete lockfile and not a claim of clean-environment reproducibility.
+numpy==1.23.5
+aiohttp==3.13.4
+torch==2.8.0
+sentence-transformers==5.1.2
+transformers==4.57.6
+peft==0.17.1
+huggingface-hub==0.36.2
+Pillow==11.3.0

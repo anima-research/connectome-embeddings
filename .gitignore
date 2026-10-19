@@ -1,0 +1,50 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Resident content and vector indexes
+index/
+indexes/
+data/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+# Logs, caches and model weights
+logs/
+*.log
+hf-home/
+.cache/
+models/
+weights/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.pickle
+# Local environments / generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+build/
+.DS_Store
+# Local backups and operational snapshots
+backups/
+ops/
+*.bak
+*.bak-*
+*.backup
+*.orig

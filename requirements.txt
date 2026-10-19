@@ -1,0 +1,10 @@
+# Direct runtime dependencies. See constraints-macos-observed.txt for the imported deployment.
+# Model custom code is loaded by sentence-transformers; review it before use.
+numpy>=1.23.5,<3
+aiohttp>=3.13.4,<4
+torch>=2.8,<3
+sentence-transformers>=5.1.2,<6
+transformers>=4.57.6,<5
+peft>=0.17.1,<1
+huggingface-hub>=0.36.2,<1
+Pillow>=11.3.0,<12
